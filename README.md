@@ -27,7 +27,7 @@ A letra "u" é convertida para "ufat"
 
 * Flex-box
 
-*Javascript 
+* Javascript 
 
 ## Feito por:
 
