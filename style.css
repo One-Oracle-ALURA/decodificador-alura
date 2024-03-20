@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-primaria: #1B3C73;
-    --cor-secundaria: #FFEDD8;
-    --cor-terciaria: #891652;
-    --cor-hover: #891652;
+    --cor-primaria: #222831;
+    --cor-secundaria: #76ABAE;
+    --cor-terciaria: #76453B;
+    --cor-hover: #EEEEEE;
 
     --fonte-primaria: "Krona One", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
@@ -24,7 +24,7 @@ body {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--cor-terciaria);
     border-radius: 5px;
     text-align: center;
     color: var(--cor-terciaria);
@@ -33,7 +33,7 @@ body {
 textarea {
     width: 100%;
     margin-bottom: 10px;
-    color: var(--cor-terciaria);
+    color: var(--cor-primaria);
 }
   
 button {

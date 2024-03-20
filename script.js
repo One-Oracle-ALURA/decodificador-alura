@@ -36,6 +36,7 @@ function copiarParaAreaTransferencia() {
 }
   
 function alternarOperacao() {
+    limparCampos();
     var radios = document.getElementsByName("operacao");
         for (var i = 0; i < radios.length; i++) {
         if (radios[i].checked) {
