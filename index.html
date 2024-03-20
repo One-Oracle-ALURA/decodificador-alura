@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Texto Criptografado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<main>
+    <body>
+        <div class="container">
+            <h2>Criptografia de Texto</h2>
+            <label for="input-text">Texto:</label>
+            <textarea id="input-text" rows="4" cols="50"></textarea>
+            <div>
+                <input type="radio" id="encrypt" name="operation" value="encrypt" checked>
+                <label for="encrypt">Criptografar</label>
+                <input type="radio" id="decrypt" name="operation" value="decrypt">
+                <label for="decrypt">Descriptografar</label>
+            </div>
+            <button onclick="convertText()">Converter</button>
+            <button onclick="copyToClipboard()">Copiar</button>
+            <div>
+                <label for="output-text">Resultado:</label>
+                <textarea id="output-text" rows="4" cols="50" readonly></textarea>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</main>
+<footer>
+    <p>Desenvolvido por Gustavo Xavier</p>
+</footer>
+</html>
