@@ -8,7 +8,7 @@ Olá, Bem vindo ao meu projeto de decodificar e criptografar textos.
 
 Critografador e decodificador de texto seguindo as seguintes regras:
 
-As "chaves" de criptografia que utilizaremos são:
+As "chaves" de criptografia são:
 A letra "e" é convertida para "enter"
 A letra "i" é convertida para "imes"
 A letra "a" é convertida para "ai"
