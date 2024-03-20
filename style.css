@@ -19,7 +19,7 @@ body {
     background-color: var(--cor-primaria);
 }
 
-.container {
+.caixa {
     background-color: var(--cor-secundaria);
     max-width: 600px;
     margin: 50px auto;
@@ -28,32 +28,32 @@ body {
     border-radius: 5px;
     text-align: center;
     color: var(--cor-terciaria);
-  }
+}
   
-  textarea {
+textarea {
     width: 100%;
     margin-bottom: 10px;
     color: var(--cor-terciaria);
-  }
+}
   
-  button {
+button {
     margin-right: 10px;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     border-radius: 5px;
-  }
+}
   
-  button:hover {
+button:hover {
     background-color: var(--cor-hover);
     transform: scale(1.2);
 }
 
 
-  label {
+label {
     margin-right: 10px;
-  }
+}
   
-  footer {
+footer {
     position: fixed;
     bottom: 0;
     left: 0;

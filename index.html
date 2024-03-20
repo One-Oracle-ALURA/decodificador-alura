@@ -6,25 +6,31 @@
   <title>Texto Criptografado</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div class="container">
-    <h2>Criptografia de Texto</h2>
-    <label for="input-text">Texto:</label>
-    <textarea id="input-text" rows="4" cols="50"></textarea>
-    <div>
-      <input type="radio" id="criptografar" name="operacao" value="criptografar" checked>
-      <label for="criptografar">Criptografar</label>
-      <input type="radio" id="descriptografar" name="operacao" value="descriptografar">
-      <label for="descriptografar">Descriptografar</label>
-    </div>
-    <button onclick="converterTexto()">Converter</button>
-    <button onclick="copiarParaAreaTransferencia()">Copiar</button>
-    <div>
-      <label for="output-text">Resultado:</label>
-      <textarea id="output-text" rows="4" cols="50" readonly></textarea>
-    </div>
-    <button onclick="alternarOperacao()">Alternar Operação</button>
-  </div>
-  <script src="script.js"></script>
-</body>
+<main>
+    <body>
+        <div class="caixa">
+            <h2>Criptografia de Texto</h2>
+            <label for="input-text">Texto:</label>
+            <textarea id="input-text" rows="4" cols="50"></textarea>
+            <div>
+                <input type="radio" id="criptografar" name="operacao" value="criptografar" checked>
+                <label for="criptografar">Criptografar</label>
+                <input type="radio" id="descriptografar" name="operacao" value="descriptografar">
+                <label for="descriptografar">Descriptografar</label>
+            </div>
+            <button onclick="converterTexto()">Converter</button>
+            <button onclick="copiarParaAreaTransferencia()">Copiar</button>
+            <button onclick="limparCampos()">Limpar</button>
+            <div>
+                <label for="output-text">Resultado:</label>
+                <textarea id="output-text" rows="4" cols="50" readonly></textarea>
+            </div>
+            <button onclick="alternarOperacao()">Alternar Operação</button>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</main>
+<footer>
+    Desenvolvido por Gustavo Xavier
+</footer>
 </html>
