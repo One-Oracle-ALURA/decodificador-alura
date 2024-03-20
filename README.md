@@ -1,8 +1,7 @@
 # Decodificador de textos em Js
 Olá, Bem vindo ao meu projeto de decodificar e criptografar textos.
 
-![image]https://github.com/One-Oracle-ALURA/portifolio-gustavo-xavier/blob/main/assets/portifolio.png
-
+![image](https://github.com/One-Oracle-ALURA/decodificador-alura/blob/main/img/preview.png)
 
 ## Ferramentas utilizadas:
 
